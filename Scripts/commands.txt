@@ -1,0 +1,2 @@
+curl -XDELETE "http://<host>:9200/_snapshot/<repo>/<snapshot_name>"
+curl -XPOST 'http://<host>:9200/_snapshot/<repo>/_verify'

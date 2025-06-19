@@ -1,0 +1,1 @@
+curl -XPOST "http://10.226.71.1:9200/_bulk" --data-binary @bulk_web_logs.json -H "Content-Type: application/json"
